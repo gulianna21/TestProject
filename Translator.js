@@ -3,7 +3,7 @@ import { View, TextInput, StyleSheet, TouchableOpacity, TouchableHighlight, Text
 import Languages from './languages.json';
 import { PowerTranslator, ProviderTypes, TranslatorConfiguration, TranslatorFactory } from 'react-native-power-translator';
 
-const access = 'ya29.c.Ko8B0AfecCSZ5_kw-SiWXO0M5xTFC7zqKwtIrcwScQ0NcfT9oyz-_4j74hj618FUvW3Atep3AYIj-h7Je0POA6kswdYKzOCUz3TDgh0T-ov86aQomo21Ese-QjDkxhO6Z7viRCdf1Qm0tPKQrG51w2av2-acLcw4PrjlXHQVuZSTchHs4MZA7pygDIt2hFHOg1o';
+const access = 'yourAccessToken';
 export default class Translator extends Component {
 
    constructor(props) {
